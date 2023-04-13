@@ -38,8 +38,8 @@ It's important to note that the order in which bytes are interpreted may vary de
 
 - Transmission technology
 
-  - 1:1
-  - 1:Several
+  - 1:1 (Unicast)
+  - 1:Several (Multicast)
   - 1:All (Broadcast)
     - PAN: Personal Network
     - LAN: Local Area Network
@@ -53,4 +53,67 @@ It's important to note that the order in which bytes are interpreted may vary de
 
 ## 2. Network's Software
 
-## 3. Network's Hardware
+### 2.1 Network protocols
+
+- Structure based on layers
+- Hierarchy of protocols
+
+### 2.2 TCP/IP Model
+
+TCP/IP model have 4 layers
+
+- Application layer (Top layer)
+  - FTP: File Transfer Protocol.
+  - SSH: Secure Shell.
+  - SMTP: Simple Mail Transfer Protocol.
+  - DHCP: Dynamic Host Configuration Protocol.
+  - DNS: Domain Name System.
+  - RIP: Routing Information Protocol.
+  - SNMP: Simple Network Management Protocol.
+  - HTTP: Hypertext Transfer Protocol.
+- Transport layer
+  - TCP: Transmission Control Protocol.
+  - DCCP: Datagram Congestion Control Protocol.
+  - MTP: Micro Transport Protocol.
+  - UDP: User Datagram Protocol.
+  - ICMP: Internet Control Message Protocol.
+  - FCP: Fibre Channel protocol.
+- Internet layer
+  - IP: Internet Protocol.
+  - ICMP: Internet Control Message Protocol
+  - IPSEC: Internet Protocol security.
+  - IGMP: Internet Group Management Protocol.
+- Network interface layer (Bottom layer)
+  - ARP: Address Resolution Protocol.
+  - Ethernet: traditional technology for connecting devices in a LAN network.
+  - NDP: Neighbor Discovery Protocol.
+  - L2TP: Layer 2 Tunneling Protocol.
+
+#### 2.2.1 Identifier network: IP and structure
+
+- 4 numbers separate by a dot (.)
+- Each one of 4 number represent 4 bytes = 32 bits
+- 1 bit = 0 or 1 it mean binary system.
+- Each one of 4 number can be between: 0 - 255
+
+#### 2.2.2 Sort of networks: assign of IP address
+
+### 2.3 OSI Model
+
+- Open System Interconnection
+- Better structured than TCP/IP
+- Layer 8...
+
+#### 2.3.1 Physic layer
+
+#### 2.3.2 Data links layer
+
+#### 2.3.3 Network layer
+
+#### 2.3.4 Transport layer
+
+#### 2.3.5 Session layer
+
+#### 2.3.6 Presentation later
+
+#### 2.3.7 Application layer
